@@ -1,0 +1,78 @@
+RELATÓRIO DE MÉTRICAS DOS MODELOS
+========================================
+
+Modelo: Random_Forest
+------------------------------
+Acurácia: 0.6154
+F1-Score (Weighted): 0.6447
+F1-Score (Macro): 0.3810
+Precisão (Weighted): 0.6769
+Recall (Weighted): 0.6154
+ROC-AUC: 0.3182
+
+Classification Report:
+                     precision    recall  f1-score   support
+
+Não Preferência (0)       0.80      0.73      0.76        11
+    Preferência (1)       0.00      0.00      0.00         2
+
+           accuracy                           0.62        13
+          macro avg       0.40      0.36      0.38        13
+       weighted avg       0.68      0.62      0.64        13
+
+
+Matriz de Confusão:
+[[8 3]
+ [2 0]]
+========================================
+
+Modelo: Gradient_Boosting
+------------------------------
+Acurácia: 0.6154
+F1-Score (Weighted): 0.6447
+F1-Score (Macro): 0.3810
+Precisão (Weighted): 0.6769
+Recall (Weighted): 0.6154
+ROC-AUC: 0.4545
+
+Classification Report:
+                     precision    recall  f1-score   support
+
+Não Preferência (0)       0.80      0.73      0.76        11
+    Preferência (1)       0.00      0.00      0.00         2
+
+           accuracy                           0.62        13
+          macro avg       0.40      0.36      0.38        13
+       weighted avg       0.68      0.62      0.64        13
+
+
+Matriz de Confusão:
+[[8 3]
+ [2 0]]
+========================================
+
+Modelo: XGBoost
+------------------------------
+Acurácia: 0.8462
+F1-Score (Weighted): 0.7756
+F1-Score (Macro): 0.4583
+Precisão (Weighted): 0.7160
+Recall (Weighted): 0.8462
+ROC-AUC: 0.3182
+
+Classification Report:
+                     precision    recall  f1-score   support
+
+Não Preferência (0)       0.85      1.00      0.92        11
+    Preferência (1)       0.00      0.00      0.00         2
+
+           accuracy                           0.85        13
+          macro avg       0.42      0.50      0.46        13
+       weighted avg       0.72      0.85      0.78        13
+
+
+Matriz de Confusão:
+[[11  0]
+ [ 2  0]]
+========================================
+
